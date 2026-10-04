@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Commit uses Accessibility access only to notice when an app you chose to block is opened, so it can cover it with the Commit screen. It does not read screen content, messages, passwords or what you type. Which app is open is not saved or sent anywhere. Commit is not an accessibility tool for people with disabilities. You can switch this off here at any time.</string>
+</resources>

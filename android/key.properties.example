@@ -1,0 +1,8 @@
+# Copy this file to android/key.properties and fill it in to sign release
+# builds with your own key. See RELEASE_SIGNING.md.
+#
+# NEVER commit key.properties or the keystore file. Both are in .gitignore.
+storeFile=/absolute/path/to/commit-release.jks
+storePassword=CHANGE_ME
+keyAlias=commit
+keyPassword=CHANGE_ME

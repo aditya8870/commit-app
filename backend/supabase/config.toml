@@ -1,0 +1,12 @@
+# Supabase configuration for the Commit backend.
+# This file contains NO secrets and is safe to keep with the source code.
+
+# Local name of the project. The real project is chosen when linking:
+#   development -> the Supabase project named "commit-dev"
+#   production  -> a separate project "commit-prod" (created in a later phase)
+project_id = "commit-dev"
+
+[functions.api]
+# Phase 1: /v1/time is public, so the platform must not demand a sign-in token.
+# Sign-in is added in Phase 3 and checked inside the function per route.
+verify_jwt = false

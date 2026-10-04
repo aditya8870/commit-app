@@ -1,0 +1,12 @@
+{
+  "name": "commit-backend-tests",
+  "private": true,
+  "description": "Test tooling only. Nothing here is deployed; the Edge Function has no dependencies.",
+  "type": "module",
+  "scripts": {
+    "test": "bash tests/run_all.sh"
+  },
+  "devDependencies": {
+    "pg": "8.23.1"
+  }
+}
